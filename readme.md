@@ -20,7 +20,7 @@ This core implements a Tandy Color Computer 2 (CoCo2) that includes:
   * 2 analog joysticks (with swap function)
   * Loading cassettes
   * Sound
-  * Cartridge holder
+  * Cartridge support
 
 Under development
 
@@ -97,14 +97,14 @@ DeMISTerized και DeMiSTified από τον ramp069 (UAEReloaded, Neptu)
   * 2 αναλογικά joysticks (με λειτουργία swap)
   * Φόρτωση κασετών
   * Ήχος
-  * Υποστήριξη κασετών
+  * Υποστήριξη κασετών τύπου cartridge
 
 ### Dragon 32 / 64
   * Μόνο το Dragon 32 φαίνεται να λειτουργεί
   * 2 αναλογικά joysticks (με λειτουργία εναλλαγής)
   * Φόρτωση κασετών
   * Ήχος
-  * Θήκη κασέτας
+  * Υποστήριξη κασετών τύπου cartridge
 
 Υπό ανάπτυξη
 
