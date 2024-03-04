@@ -1,0 +1,172 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Shell
+    Info: Version 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+    Info: Copyright (C) 2019  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Mon Mar  4 19:11:39 2024
+Info: Command: quartus_sh -t ..//DeMiSTify/Scripts/compile.tcl -project CoCo -board neptuno
+Info: Quartus(args): -project CoCo -board neptuno
+Project: CoCo_neptuno
+Target: neptuno
+Info (125069): Default assignment values were changed in the current version of the Quartus Prime software -- changes to default assignments values are contained in file /opt/altera/18.1/quartus/linux64/assignment_defaults.qdf
+Warning (125092): Tcl Script File top.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE top.qip
+Warning (125092): Tcl Script File ../CoCo.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE ../CoCo.qip
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+    Info: Processing started: Mon Mar  4 19:11:40 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CoCo_neptuno -c CoCo_neptuno
+Warning (125092): Tcl Script File top.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE top.qip
+Warning (125092): Tcl Script File ../CoCo.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE ../CoCo.qip
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 4 design units, including 2 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/Board/neptuno/audio_i2s.vhd
+    Info (12022): Found design unit 1: dac_if-Behavioral File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/Board/neptuno/audio_i2s.vhd Line: 34
+    Info (12022): Found design unit 2: audio_top-Behavioral File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/Board/neptuno/audio_i2s.vhd Line: 97
+    Info (12023): Found entity 1: dac_if File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/Board/neptuno/audio_i2s.vhd Line: 24
+    Info (12023): Found entity 2: audio_top File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/Board/neptuno/audio_i2s.vhd Line: 85
+Info (12021): Found 1 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/Board/neptuno/joydecoder.v
+    Info (12023): Found entity 1: joydecoder File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/Board/neptuno/joydecoder.v Line: 24
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd
+    Info (12022): Found design unit 1: substitute_mcu-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 84
+    Info (12023): Found entity 1: substitute_mcu File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 24
+Info (12021): Found 1 design units, including 0 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_pkg.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_pkg File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_pkg.vhd Line: 22
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_alu.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_alu-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_alu.vhd Line: 50
+    Info (12023): Found entity 1: eightthirtytwo_alu File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_alu.vhd Line: 27
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_shifter.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_shifter-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_shifter.vhd Line: 45
+    Info (12023): Found entity 1: eightthirtytwo_shifter File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_shifter.vhd Line: 27
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_aligner-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner.vhd Line: 36
+    Info (12023): Found entity 1: eightthirtytwo_aligner File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner_le.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_aligner_le-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner_le.vhd Line: 38
+    Info (12023): Found entity 1: eightthirtytwo_aligner_le File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner_le.vhd Line: 25
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_decode.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_decode-behavoural File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_decode.vhd Line: 38
+    Info (12023): Found entity 1: eightthirtytwo_decode File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_decode.vhd Line: 26
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_fetchloadstore-behavioural File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd Line: 79
+    Info (12023): Found entity 1: eightthirtytwo_fetchloadstore File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd Line: 28
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_hazard.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_hazard-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_hazard.vhd Line: 60
+    Info (12023): Found entity 1: eightthirtytwo_hazard File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_hazard.vhd Line: 26
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_debug.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_debug-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_debug.vhd Line: 53
+    Info (12023): Found entity 1: eightthirtytwo_debug File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_debug.vhd Line: 26
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd
+    Info (12022): Found design unit 1: eightthirtytwo_cpu-behavoural File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 59
+    Info (12023): Found entity 1: eightthirtytwo_cpu File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 27
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/altera/debug_bridge_jtag.vhd
+    Info (12022): Found design unit 1: debug_bridge_jtag-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/altera/debug_bridge_jtag.vhd Line: 39
+    Info (12023): Found entity 1: debug_bridge_jtag File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/altera/debug_bridge_jtag.vhd Line: 24
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/altera/debug_virtualjtag.vhd
+    Info (12022): Found design unit 1: debug_virtualjtag-SYN File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/altera/debug_virtualjtag.vhd Line: 62
+    Info (12023): Found entity 1: debug_virtualjtag File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/altera/debug_virtualjtag.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/debug_fifo.vhd
+    Info (12022): Found design unit 1: debug_fifo-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/debug_fifo.vhd Line: 28
+    Info (12023): Found entity 1: debug_fifo File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/debug_fifo.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/firmware/controller_rom.vhd
+    Info (12022): Found design unit 1: controller_rom-arch File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/firmware/controller_rom.vhd Line: 23
+    Info (12023): Found entity 1: controller_rom File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/firmware/controller_rom.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/simple_uart.vhd
+    Info (12022): Found design unit 1: simple_uart-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/simple_uart.vhd Line: 37
+    Info (12023): Found entity 1: simple_uart File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/simple_uart.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/jtag_uart.vhd
+    Info (12022): Found design unit 1: jtag_uart-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/jtag_uart.vhd Line: 35
+    Info (12023): Found entity 1: jtag_uart File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/jtag_uart.vhd Line: 9
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/io_ps2_com.vhd
+    Info (12022): Found design unit 1: io_ps2_com-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/io_ps2_com.vhd Line: 80
+    Info (12023): Found entity 1: io_ps2_com File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/io_ps2_com.vhd Line: 54
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/interrupt_controller.vhd
+    Info (12022): Found design unit 1: interrupt_controller-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/interrupt_controller.vhd Line: 35
+    Info (12023): Found entity 1: interrupt_controller File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/interrupt_controller.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/timer_controller.vhd
+    Info (12022): Found design unit 1: timer_controller-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/timer_controller.vhd Line: 43
+    Info (12023): Found entity 1: timer_controller File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/timer_controller.vhd Line: 25
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/spi_controller.vhd
+    Info (12022): Found design unit 1: spi_controller-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/spi_controller.vhd Line: 43
+    Info (12023): Found entity 1: spi_controller File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/spi_controller.vhd Line: 23
+Info (12021): Found 1 design units, including 0 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/demistify_config_pkg.vhd
+    Info (12022): Found design unit 1: demistify_config_pkg File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/demistify_config_pkg.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/firmware/controller_rom1_byte.vhd
+    Info (12022): Found design unit 1: controller_rom1-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/firmware/controller_rom1_byte.vhd Line: 23
+    Info (12023): Found entity 1: controller_rom1 File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/firmware/controller_rom1_byte.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /home/turri/Documents/new/CoCo2-Dragon-neptuno/firmware/controller_rom2_byte.vhd
+    Info (12022): Found design unit 1: controller_rom2-rtl File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/firmware/controller_rom2_byte.vhd Line: 23
+    Info (12023): Found entity 1: controller_rom2 File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/firmware/controller_rom2_byte.vhd Line: 6
+Warning (12019): Can't analyze file -- file ../DeMiSTify/firmware/controller_rom1_byte.vhd is missing
+Warning (12019): Can't analyze file -- file ../DeMiSTify/firmware/controller_rom2_byte.vhd is missing
+Warning (12125): Using design file neptuno_top.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: neptuno_top-RTL File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 63
+    Info (12023): Found entity 1: neptuno_top File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 7
+Info (12127): Elaborating entity "neptuno_top" for the top level hierarchy
+Warning (10540): VHDL Signal Declaration warning at neptuno_top.vhd(40): used explicit default value for signal "joyP7_o" because signal was never assigned a value File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 40
+Warning (10540): VHDL Signal Declaration warning at neptuno_top.vhd(50): used explicit default value for signal "stm_rx_o" because signal was never assigned a value File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 50
+Warning (10036): Verilog HDL or VHDL warning at neptuno_top.vhd(69): object "reset_n" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 69
+Warning (10036): Verilog HDL or VHDL warning at neptuno_top.vhd(86): object "spi_ss4" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 86
+Warning (10541): VHDL Signal Declaration warning at neptuno_top.vhd(111): used implicit default value for signal "rs232_rxd" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 111
+Warning (10036): Verilog HDL or VHDL warning at neptuno_top.vhd(112): object "rs232_txd" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 112
+Warning (10036): Verilog HDL or VHDL warning at neptuno_top.vhd(216): object "i2s_mclk" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 216
+Info (12128): Elaborating entity "audio_top" for hierarchy "audio_top:audio_i2s" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 263
+Info (12128): Elaborating entity "dac_if" for hierarchy "audio_top:audio_i2s|dac_if:dac" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/Board/neptuno/audio_i2s.vhd Line: 147
+Info (12128): Elaborating entity "joydecoder" for hierarchy "joydecoder:joy" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 276
+Info (12128): Elaborating entity "substitute_mcu" for hierarchy "substitute_mcu:controller" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 341
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(151): object "timer_reg_req" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 151
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(152): object "timer_tick" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 152
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(198): object "flushcaches" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 198
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(202): object "debug_req" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 202
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(204): object "debug_fromcpu" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 204
+Warning (10036): Verilog HDL or VHDL warning at substitute_mcu.vhd(206): object "debug_wr" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 206
+Info (12128): Elaborating entity "simple_uart" for hierarchy "substitute_mcu:controller|simple_uart:\genuart:myuart" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 296
+Info (12128): Elaborating entity "io_ps2_com" for hierarchy "substitute_mcu:controller|io_ps2_com:mykeyboard" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 319
+Info (12128): Elaborating entity "spi_controller" for hierarchy "substitute_mcu:controller|spi_controller:spi" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 390
+Info (12128): Elaborating entity "interrupt_controller" for hierarchy "substitute_mcu:controller|interrupt_controller:intcontroller" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 419
+Info (12128): Elaborating entity "controller_rom" for hierarchy "substitute_mcu:controller|controller_rom:rom" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 441
+Info (12128): Elaborating entity "controller_rom1" for hierarchy "substitute_mcu:controller|controller_rom:rom|controller_rom1:rom1" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/firmware/controller_rom.vhd Line: 41
+Info (12128): Elaborating entity "controller_rom2" for hierarchy "substitute_mcu:controller|controller_rom:rom|controller_rom2:rom2" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/firmware/controller_rom.vhd Line: 56
+Info (12128): Elaborating entity "eightthirtytwo_cpu" for hierarchy "substitute_mcu:controller|eightthirtytwo_cpu:cpu" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/controller/substitute_mcu.vhd Line: 486
+Warning (10873): Using initial value X (don't care) for net "debug_q" at eightthirtytwo_cpu.vhd(52) File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 52
+Warning (10873): Using initial value X (don't care) for net "regfile2.flag_cond" at eightthirtytwo_cpu.vhd(94) File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 94
+Warning (10873): Using initial value X (don't care) for net "debug_req" at eightthirtytwo_cpu.vhd(53) File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 53
+Warning (10873): Using initial value X (don't care) for net "debug_wr" at eightthirtytwo_cpu.vhd(54) File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 54
+Info (12128): Elaborating entity "eightthirtytwo_fetchloadstore" for hierarchy "substitute_mcu:controller|eightthirtytwo_cpu:cpu|eightthirtytwo_fetchloadstore:\genlsfnodual:fetchloadstore" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 329
+Warning (10036): Verilog HDL or VHDL warning at eightthirtytwo_fetchloadstore.vhd(94): object "opcodebuffer2_valid" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd Line: 94
+Warning (10036): Verilog HDL or VHDL warning at eightthirtytwo_fetchloadstore.vhd(101): object "fetch2_word" assigned a value but never read File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd Line: 101
+Warning (10873): Using initial value X (don't care) for net "opcode2" at eightthirtytwo_fetchloadstore.vhd(53) File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd Line: 53
+Warning (10873): Using initial value X (don't care) for net "opcode2_valid" at eightthirtytwo_fetchloadstore.vhd(54) File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd Line: 54
+Info (12128): Elaborating entity "eightthirtytwo_aligner_le" for hierarchy "substitute_mcu:controller|eightthirtytwo_cpu:cpu|eightthirtytwo_fetchloadstore:\genlsfnodual:fetchloadstore|eightthirtytwo_aligner_le:\align_le:aligner" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd Line: 522
+Info (12128): Elaborating entity "eightthirtytwo_decode" for hierarchy "substitute_mcu:controller|eightthirtytwo_cpu:cpu|eightthirtytwo_decode:decoder" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 376
+Info (12128): Elaborating entity "eightthirtytwo_alu" for hierarchy "substitute_mcu:controller|eightthirtytwo_cpu:cpu|eightthirtytwo_alu:alu" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 401
+Info (12128): Elaborating entity "eightthirtytwo_shifter" for hierarchy "substitute_mcu:controller|eightthirtytwo_cpu:cpu|eightthirtytwo_alu:alu|eightthirtytwo_shifter:shifter" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_alu.vhd Line: 237
+Info (12128): Elaborating entity "eightthirtytwo_hazard" for hierarchy "substitute_mcu:controller|eightthirtytwo_cpu:cpu|eightthirtytwo_hazard:hazard1" File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd Line: 442
+Error (12006): Node instance "guest" instantiates undefined entity "CoCo2". Ensure that required library paths are specified correctly, define the specified entity, or change the instantiation. If this entity represents Intel FPGA or third-party IP, generate the synthesis files for the IP. File: /home/turri/Documents/new/CoCo2-Dragon-neptuno/neptuno/neptuno_top.vhd Line: 296
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 26 warnings
+    Error: Peak virtual memory: 920 megabytes
+    Error: Processing ended: Mon Mar  4 19:11:53 2024
+    Error: Elapsed time: 00:00:13
+    Error: Total CPU time (on all processors): 00:00:29
+Error (293001): Quartus Prime Full Compilation was unsuccessful. 3 errors, 26 warnings
+Error (23031): Evaluation of Tcl script ..//DeMiSTify/Scripts/compile.tcl unsuccessful
+Error: Quartus Prime Shell was unsuccessful. 8 errors, 28 warnings
+    Error: Peak virtual memory: 771 megabytes
+    Error: Processing ended: Mon Mar  4 19:11:53 2024
+    Error: Elapsed time: 00:00:14
+    Error: Total CPU time (on all processors): 00:00:31
