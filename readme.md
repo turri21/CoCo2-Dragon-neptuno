@@ -59,12 +59,11 @@ ________________________________________________________________________________
 # HowTo
 
 -- Install Intel® Quartus® Prime Lite v18.1 (including the updates for it)
-
--- https://www.intel.com/content/www/us/en/software-kit/665988/intel-quartus-prime-lite-edition-design-software-version-18-1-for-linux.html
+https://www.intel.com/content/www/us/en/software-kit/665988/intel-quartus-prime-lite-edition-design-software-version-18-1-for-linux.html
 
 git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 
--- Edit right paths for your system in site.mk file
+-- Edit the correct paths for your system in site.mk file
 nano CoCo2-Dragon-neptuno/DeMiSTify/site.mk
 
 make BOARD=neptuno
