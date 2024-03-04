@@ -64,6 +64,7 @@ https://www.intel.com/content/www/us/en/software-kit/665988/intel-quartus-prime-
 git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 
 -- Edit the correct paths for your system in site.mk file
+
 nano CoCo2-Dragon-neptuno/DeMiSTify/site.mk
 
 make BOARD=neptuno
