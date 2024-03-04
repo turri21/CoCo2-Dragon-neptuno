@@ -26,7 +26,7 @@ Under development
 
 ___________________________________________________________________________
 
-# Poseidon: Tandy Color Computer 2 (CoCo2) y Dragon 32 [Spanish]
+# NeptUNO: Tandy Color Computer 2 (CoCo2) y Dragon 32 [Spanish]
 
 Core arrancando originalmente por Pierco: https://github.com/pcornier/coco2
 
