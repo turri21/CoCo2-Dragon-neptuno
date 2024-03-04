@@ -31,9 +31,9 @@ https://www.intel.com/content/www/us/en/software-kit/665988/intel-quartus-prime-
 
 git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 
--- Edit the correct paths for your system in site.mk file
-
 cd CoCo2-Dragon-neptuno
+
+-- Edit the correct paths for your system in site.mk file
 
 nano DeMiSTify/site.mk
 
@@ -77,9 +77,9 @@ https://www.intel.com/content/www/us/en/software-kit/665988/intel-quartus-prime-
 
 git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 
--- Editar las rutas correctas para su sistema en site.mk fichero
-
 cd CoCo2-Dragon-neptuno
+
+-- Editar las rutas correctas para su sistema en site.mk fichero
 
 nano DeMiSTify/site.mk
 
@@ -117,9 +117,9 @@ DeMISTerized και DeMiSTified από τον ramp069 (UAEReloaded, Neptu)
 
 git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 
--- Επεξεργαστείτε τις σωστές διαδρομές για το σύστημά σας στο αρχείο site.mk
-
 cd CoCo2-Dragon-neptuno
+
+-- Επεξεργαστείτε τις σωστές διαδρομές για το σύστημά σας στο αρχείο site.mk
 
 nano DeMiSTify/site.mk
 
