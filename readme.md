@@ -13,7 +13,7 @@ This core implements a Tandy Color Computer 2 (CoCo2) that includes:
   * 2 analog joysticks (with swap function)
   * Loading cassettes
   * Sound
-  * Cartridge holder
+  * Cartridge support
 
 ### Dragon 32 / 64
   * only dragon 32 seems to work
