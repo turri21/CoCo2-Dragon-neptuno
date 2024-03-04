@@ -13,18 +13,18 @@ BOARDS=neptuno sidi poseidon-ep4cgx150
 # Q13 for older devices.  13.0sp1 supports Cyclone II
 # while 13.1 is the last version to support Cyclone III
 
-Q13 = /mnt/Teradisk/Quartus13/quartus/bin/
+Q13 = /opt/altera/13.1/quartus/bin/
 
 
 # Q18 for newer devices - I believe anything from version 15 upwards
 # will support the boards of interest.
 
-Q17 = /mnt/Teradisk/Quartus/quartus/bin/
+Q18 = /opt/altera/18.1/quartus/bin/
 
 # Q17 specifically for MiSTer - not used by DeMiSTify (yet), but
 # useful to have it defined for multi-board projects.
 
-Q17 = /mnt/Teradisk/Quartus/quartus/bin/
+Q17 = /opt/intelFPGA_lite/17.0/quartus/bin/
 
 
 # ISE for older Xilinx devices
@@ -36,10 +36,10 @@ ISE14 = /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/
 
 QUARTUS_CYCLONEII = $(Q13)
 QUARTUS_CYCLONEIII = $(Q13)
-QUARTUS_CYCLONEIV = $(Q17)
-QUARTUS_CYCLONEV = $(Q17)
-QUARTUS_CYCLONE10LP = $(Q17)
-QUARTUS_MAX10 = $(Q17)
+QUARTUS_CYCLONEIV = $(Q18)
+QUARTUS_CYCLONEV = $(Q18)
+QUARTUS_CYCLONE10LP = $(Q18)
+QUARTUS_MAX10 = $(Q18)
 
 ISE_SPARTAN6 = $(ISE14)
 ISE_SPARTAN3 = $(ISE14)
