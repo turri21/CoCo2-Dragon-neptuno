@@ -4,7 +4,7 @@
 # If you just want to build for a single board then supply BOARD=boardname
 # as part of the make command.
 
-BOARDS=neptuno sidi poseidon-ep4cgx150
+BOARDS=neptuno
 
 # If you're building for multiple boards you might need to have multiple versions
 # of Quartus installed.  Since you can't have more than one version in your
