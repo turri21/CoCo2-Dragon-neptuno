@@ -33,9 +33,9 @@ git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 
 -- Edit the correct paths for your system in site.mk file
 
-nano CoCo2-Dragon-neptuno/DeMiSTify/site.mk
-
 cd CoCo2-Dragon-neptuno
+
+nano DeMiSTify/site.mk
 
 make BOARD=neptuno
 
@@ -79,9 +79,9 @@ git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 
 -- Editar las rutas correctas para su sistema en site.mk fichero
 
-nano CoCo2-Dragon-neptuno/DeMiSTify/site.mk
-
 cd CoCo2-Dragon-neptuno
+
+nano DeMiSTify/site.mk
 
 make BOARD=neptuno
 
@@ -119,8 +119,8 @@ git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 
 -- Επεξεργαστείτε τις σωστές διαδρομές για το σύστημά σας στο αρχείο site.mk
 
-nano CoCo2-Dragon-neptuno/DeMiSTify/site.mk
-
 cd CoCo2-Dragon-neptuno
+
+nano DeMiSTify/site.mk
 
 make BOARD=neptuno
