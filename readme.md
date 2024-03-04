@@ -80,3 +80,41 @@ git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 nano CoCo2-Dragon-neptuno/DeMiSTify/site.mk
 
 make BOARD=neptuno
+
+_____________________________________________________________________________________
+
+# NeptUNO: Tandy Color Computer 2 (CoCo2) και Dragon 32 [Ελληνικά]
+Ο πυρήνας δημιουργήθηκε αρχικά από τον Pierco: https://github.com/pcornier/coco2
+
+Ολοκληρώθηκε από τους dshadoff, alanswx και pcornier.
+
+DeMISTerized και DeMiSTified από τον ramp069 (UAEReloaded, Neptu)
+
+### Tandy Color 2
+Αυτός ο πυρήνας υλοποιεί έναν Tandy Color Computer 2 (CoCo2) που περιλαμβάνει:
+
+  * 64k μνήμης
+  * 2 αναλογικά joysticks (με λειτουργία swap)
+  * Φόρτωση κασετών
+  * Ήχος
+  * Υποστήριξη κασετών
+
+### Dragon 32 / 64
+  * Μόνο το Dragon 32 φαίνεται να λειτουργεί
+  * 2 αναλογικά joysticks (με λειτουργία εναλλαγής)
+  * Φόρτωση κασετών
+  * Ήχος
+  * Θήκη κασέτας
+
+Υπό ανάπτυξη
+
+# HowTo [Ελληνικά]
+-- Εγκαταστήστε το Intel® Quartus® Prime Lite v18.1 (συμπεριλαμβανομένων των ενημερώσεων για αυτό) https://www.intel.com/content/www/us/en/software-kit/665988/intel-quartus-prime-lite-edition-design-software-version-18-1-for-linux.html
+
+git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
+
+-- Επεξεργαστείτε τις σωστές διαδρομές για το σύστημά σας στο αρχείο site.mk
+
+nano CoCo2-Dragon-neptuno/DeMiSTify/site.mk
+
+make BOARD=neptuno
