@@ -35,6 +35,8 @@ git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 
 nano CoCo2-Dragon-neptuno/DeMiSTify/site.mk
 
+cd CoCo2-Dragon-neptuno
+
 make BOARD=neptuno
 
 ___________________________________________________________________________
@@ -79,6 +81,8 @@ git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 
 nano CoCo2-Dragon-neptuno/DeMiSTify/site.mk
 
+cd CoCo2-Dragon-neptuno
+
 make BOARD=neptuno
 
 _____________________________________________________________________________________
@@ -116,5 +120,7 @@ git clone https://github.com/turri21/CoCo2-Dragon-neptuno.git
 -- Επεξεργαστείτε τις σωστές διαδρομές για το σύστημά σας στο αρχείο site.mk
 
 nano CoCo2-Dragon-neptuno/DeMiSTify/site.mk
+
+cd CoCo2-Dragon-neptuno
 
 make BOARD=neptuno
