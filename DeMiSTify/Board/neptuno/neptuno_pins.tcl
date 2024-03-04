@@ -28,10 +28,10 @@ set_location_assignment PIN_B3 -to VGA_HS
 set_location_assignment PIN_B2 -to VGA_VS
 
 #NEPTUNO TECLADO Y RATÓN#
-set_location_assignment PIN_B18 -to PS2_KEYBOARD_CLK
-set_location_assignment PIN_B17 -to PS2_KEYBOARD_DAT
-set_location_assignment PIN_B16 -to PS2_MOUSE_CLK
-set_location_assignment PIN_B15 -to PS2_MOUSE_DAT
+set_location_assignment PIN_N19 -to PS2_KEYBOARD_CLK
+set_location_assignment PIN_N20 -to PS2_KEYBOARD_DAT
+set_location_assignment PIN_C21 -to PS2_MOUSE_CLK
+set_location_assignment PIN_B21 -to PS2_MOUSE_DAT
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PS2_KEYBOARD_CLK
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PS2_KEYBOARD_DAT
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PS2_MOUSE_CLK
@@ -45,15 +45,15 @@ set_location_assignment PIN_B20 -to JOY_LOAD
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to JOY_DATA
 
 #NEPTUNO AUDIO#
-set_location_assignment PIN_AB14 -to SIGMA_L
-set_location_assignment PIN_AA15 -to SIGMA_R
+set_location_assignment PIN_A3 -to SIGMA_L
+set_location_assignment PIN_B4 -to SIGMA_R
 #set_location_assignment PIN_N5 -to mic_o -- No asignado
 set_location_assignment PIN_AA13 -to AUDIO_INPUT
 
 ## I2S audio
-set_location_assignment PIN_AB15 -to I2S_BCLK
-set_location_assignment PIN_B4 -to I2S_DATA 
-set_location_assignment PIN_A3 -to I2S_LRCLK
+set_location_assignment PIN_M20 -to I2S_BCLK
+set_location_assignment PIN_AA15 -to I2S_DATA 
+set_location_assignment PIN_AB14 -to I2S_LRCLK
 ## Neptuno I2C
 set_location_assignment PIN_R22 -to I2C_SCL
 set_location_assignment PIN_V21 -to I2C_SDA 
@@ -125,7 +125,7 @@ set_location_assignment PIN_AA3 -to DRAM_CS_N
 #NEPTUNO SRAM#
 set_location_assignment PIN_U21 -to SRAM_A[19]
 set_location_assignment PIN_A17 -to SRAM_A[18]
-#set_location_assignment PIN_B18 -to SRAM_A[17]
+set_location_assignment PIN_B18 -to SRAM_A[17]
 set_location_assignment PIN_A18 -to SRAM_A[16]
 set_location_assignment PIN_A19 -to SRAM_A[15]
 set_location_assignment PIN_A5 -to SRAM_A[14]
@@ -136,7 +136,7 @@ set_location_assignment PIN_A8 -to SRAM_A[10]
 set_location_assignment PIN_B13 -to SRAM_A[9]
 set_location_assignment PIN_B10 -to SRAM_A[8]
 set_location_assignment PIN_B14 -to SRAM_A[7]
-#set_location_assignment PIN_B15 -to SRAM_A[6]
+set_location_assignment PIN_B15 -to SRAM_A[6]
 set_location_assignment PIN_B9 -to SRAM_A[5]
 set_location_assignment PIN_A7 -to SRAM_A[4]
 set_location_assignment PIN_A6 -to SRAM_A[3]
@@ -151,9 +151,9 @@ set_location_assignment PIN_L22 -to SRAM_Q[11]
 set_location_assignment PIN_H22 -to SRAM_Q[10]
 set_location_assignment PIN_H21 -to SRAM_Q[9]
 set_location_assignment PIN_F22 -to SRAM_Q[8]
-#set_location_assignment PIN_B17 -to SRAM_Q[7]
+set_location_assignment PIN_B17 -to SRAM_Q[7]
 set_location_assignment PIN_A16 -to SRAM_Q[6]
-#set_location_assignment PIN_B16 -to SRAM_Q[5]
+set_location_assignment PIN_B16 -to SRAM_Q[5]
 set_location_assignment PIN_C4 -to SRAM_Q[4]
 set_location_assignment PIN_A9 -to SRAM_Q[3]
 set_location_assignment PIN_B8 -to SRAM_Q[2]
