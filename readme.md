@@ -4,7 +4,7 @@ Core originally created by Pierco: https://github.com/pcornier/coco2
 
 Finished by dshadoff, alanswx and pcornier.
 
-DeMISTerized and DeMiSTified by ramp069 (UAEReloaded, Neptu)
+DeMISTerized and DeMiSTified by rampa069 (UAEReloaded, Neptu)
 
 ### Tandy Color 2
 
@@ -92,7 +92,7 @@ ________________________________________________________________________________
 
 Ολοκληρώθηκε από τους dshadoff, alanswx και pcornier.
 
-DeMISTerized και DeMiSTified από τον ramp069 (UAEReloaded, Neptu)
+DeMISTerized και DeMiSTified από τον rampa069 (UAEReloaded, Neptu)
 
 ### Tandy Color 2
 Αυτός ο πυρήνας υλοποιεί έναν Tandy Color Computer 2 (CoCo2) που περιλαμβάνει:
